@@ -1,0 +1,492 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    ul,
+    li,
+    h1,
+    h1,
+    h3,
+    h4,
+    p {
+        margin: 0;
+
+    }
+
+    .container_portfolio-feature,
+    .demo-section h2,
+    h2,
+    h3,
+    h4 {
+
+
+        text-transform: uppercase;
+
+    }
+
+
+
+    body {
+        margin: 0;
+        background-color: #fff;
+
+    }
+
+    .flex-container-row {
+        display: flex;
+    }
+
+    .flex-container-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a.logo {
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        font-size: 23px;
+    }
+
+
+
+    nav {
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+
+    }
+
+    nav li {
+        justify-content: space-between;
+        list-style: none;
+        padding: 10px;
+
+
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu::after {
+        content: "🔽";
+        display: inline-block;
+        position: absolute;
+        top: 13px;
+        right: -5px;
+        font-size: 10px;
+    }
+
+    .sub-menu {
+        position: absolute;
+        left: 0;
+        padding: 0;
+        width: 100px;
+        display: none;
+        box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, .3);
+    }
+
+    .menu:hover .sub-menu {
+        display: block;
+    }
+
+    nav ul {
+        gap: 25px;
+        padding: 0;
+
+
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .background_hero-demo-section-max {
+        background-color: rgb(246, 246, 246);
+        
+    }
+
+    .hero-section {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+
+
+    }
+
+    .hero-section a:visited,
+    .hero-section a:link
+    {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 13px;
+    }
+
+    .hero-section a:hover,
+    .hero-section a:active
+    {
+        background-color: black;
+        color: white;
+    }
+
+
+
+
+
+
+
+    .container_portfolio-feature {
+
+        justify-content: space-around;
+        gap: 25px;
+
+
+
+
+
+    }
+
+    .work-portfolio {
+        flex: 0 0 23%;
+        text-align: center;
+        padding: 30px;
+
+    }
+
+    .work-portfolio span {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .red {
+        background-color: rgb(255, 84, 68);
+    }
+
+    .purple {
+        background-color: rgb(170, 45, 182);
+    }
+
+    .cyan {
+        background-color: rgb(30, 194, 164);
+    }
+
+    .blue {
+        background-color: rgb(39, 139, 224);
+    }
+
+    .demo-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-top: 100px;
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+
+
+    .demo-buttons-container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+    }
+
+    .demo-buttons-container a:link,
+    .demo-buttons-container a:visited {
+        text-decoration: none;
+        padding: 10px 20px;
+        display: inline-block;
+        box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
+        color: #000;
+        transition: background-color ease-in-out 0.3s;
+    }
+
+    .demo-buttons-container a:hover,
+    .demo-buttons-container a:active {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .style-demo-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 30px;
+        padding-bottom: 100px;
+    }
+
+    .style-demo-section div a {
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .style-demo-section .card {
+        box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, .3);
+        transition: box-shadow ease-in-out 0.3s;
+    }
+
+    .style-demo-section .card:hover,
+    .style-demo-section .card:active {
+        box-shadow: 0px 0px 0px 2px rgba(50, 50, 50, 1);
+    }
+
+    .style-demo-section div a h4 {
+        font-weight: 500;
+    }
+
+    .title-feature {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+    }
+
+    .feature-section {
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .feature-section h4 {
+        font-weight: 100;
+        position: relative;
+    }
+
+    .feature-section h4::before {
+        content: "";
+        background: url("./images/arrow.png") no-repeat;
+        width: 30px;
+        height: 30px;
+        top: 6px;
+        position: absolute;
+        left: -25px;
+    }
+
+    .social-section {
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        font-size: 30px;
+        padding-bottom: 100px;
+        background-color: #464646;
+        color: #fff;
+
+
+
+    }
+
+
+
+    .social-section div a i {
+        padding-top: 30px;
+        color: #fff;
+        transition: color ease-in-out 0.3s;
+
+    }
+
+
+    .social-section div a i:hover {
+        color: black;
+
+    }
+
+    .social-section div a:not(:first-child) {
+        margin-left: 10px;
+    }
+
+    footer {
+        background-color: #000;
+        color: #fff;
+    }
+
+    footer div {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    @media(max-width:768px) {
+        .work-portfolio {
+            flex: 0 1 50%;
+
+        }
+
+        .container_portfolio-feature {
+            flex-wrap: wrap;
+
+        }
+
+        button.btn-menu-mobile {
+            display: block;
+            color: rgb(0, 0, 0);
+            z-index: 999;
+
+        }
+
+
+
+        header a.logo {
+            z-index: 999;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .open-mobile-nav a.logo {
+            color: #fff;
+        }
+
+        .nav-mobile {
+            background-color: black;
+            color: #fff;
+            width: 100%;
+            height: 100vh;
+            align-items: baseline;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            justify-content: center;
+            font-size: 30px;
+            transition: all 0.5s;
+
+            pointer-events: none;
+            visibility: hidden;
+
+
+        }
+
+        .open-mobile-nav .nav-mobile {
+            opacity: 1;
+            pointer-events: auto;
+            visibility: visible;
+        }
+
+        .open-mobile-nav .icon-mobile[name="close-icon"] {
+            display: block;
+            color: #fff;
+        }
+
+        .open-mobile-nav .icon-mobile[name="open-icon"] {
+            display: none;
+        }
+
+
+        .menu::after {
+            content: none;
+        }
+
+        .sub-menu li {
+            display: none;
+        }
+
+        .nav-mobile .nav-mobile-direction {
+            flex-direction: column;
+
+        }
+
+        .nav-mobile ul a {
+            color: #fff;
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+    @media(max-width:405px) {
+        .demo-buttons-container a:last-child {
+            margin-top: 5px;
+        }
+    }
+
+    @media(max-width:960px) {
+        .feature-section {
+            align-items: flex-start;
+        }
+
+        .feature-section div {
+            flex: 0 0 20%;
+
+        }
+    }
+
+    @media(max-width:460px) {
+        .feature-section div {
+            flex: 0 0 60%;
+        }
+
+        div.feature-section div:nth-child(2) {
+            margin: 40px 0;
+
+        }
+    }
+
+
+    .btn-menu-mobile {
+        border: none;
+        background: none;
+        cursor: pointer;
+
+        display: none;
+
+    }
+
+    .icon-mobile {
+        font-size: 30px;
+
+    }
+
+    .icon-mobile[name="close-icon"] {
+        display: none;
+    }
+
+
+
+
+
+    .container-feature {
+        padding: 100px 0;
+    }
