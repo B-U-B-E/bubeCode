@@ -442,6 +442,7 @@
 
     }
 
+
     @media(max-width:440px) {
         .demo-buttons-container a:last-child {
             margin-top: 5px;
@@ -469,6 +470,13 @@
 
         }
     }
+
+   @media(max-width:320px){
+   .nav-mobile .nav-mobile-direction{
+      line-height: 0;
+      }
+   
+}
 
 
     .btn-menu-mobile {
