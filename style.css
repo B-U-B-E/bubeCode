@@ -420,6 +420,11 @@
 
         .nav-mobile .nav-mobile-direction {
             flex-direction: column;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            
 
         }
 
@@ -437,7 +442,7 @@
 
     }
 
-    @media(max-width:405px) {
+    @media(max-width:440px) {
         .demo-buttons-container a:last-child {
             margin-top: 5px;
         }
