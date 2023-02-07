@@ -344,7 +344,7 @@
         padding: 10px;
     }
 
-    @media(max-width:768px) {
+    @media(max-width:800px) {
         .work-portfolio {
             flex: 0 1 50%;
 
