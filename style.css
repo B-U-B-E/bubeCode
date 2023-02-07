@@ -477,6 +477,12 @@
       }
    
 }
+@media(max-width:240px){
+   .nav-mobile .nav-mobile-direction{
+      padding-top: 40px;
+      }
+   
+}
 
 
     .btn-menu-mobile {
