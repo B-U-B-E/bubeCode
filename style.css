@@ -438,7 +438,7 @@
 
     }
 
-    @media(max-width:405px) {
+    @media(max-width:440px) {
         .demo-buttons-container a:last-child {
             margin-top: 5px;
         }
