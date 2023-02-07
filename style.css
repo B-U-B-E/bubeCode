@@ -10,7 +10,6 @@
     h4,
     p {
         margin: 0;
-/*        da go fontnam bodyto nabildano */
 
     }
 
@@ -30,7 +29,7 @@
     body {
         margin: 0;
         background-color: #fff;
-       font-family: 'Ubuntu Mono', monospace;
+        font-family: 'Ubuntu Mono', monospace;
 
     }
 
@@ -113,8 +112,11 @@
     nav ul {
         gap: 25px;
         padding: 0;
-        
-         
+
+
+
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .background_hero-demo-section-max {
@@ -385,7 +387,7 @@
             justify-content: center;
             font-size: 30px;
             transition: all 0.5s;
-            min-height: 800px;
+
             pointer-events: none;
             visibility: hidden;
 
@@ -435,7 +437,7 @@
 
     }
 
-    @media(max-width:440px) {
+    @media(max-width:405px) {
         .demo-buttons-container a:last-child {
             margin-top: 5px;
         }
